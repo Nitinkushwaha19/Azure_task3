@@ -18,6 +18,7 @@ module "ASP" {
   location              = module.RG[each.value.resource_group_key].resource_group_location
   resource_group_name   = module.RG[each.value.resource_group_key].resource_group_name
   worker_count          = each.value.worker_count
+  sku_name              = var.sku_name
   tags                  = var.tags
 }
 

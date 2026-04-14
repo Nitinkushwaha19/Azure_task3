@@ -35,6 +35,8 @@ asp_config = {
   }
 }
 
+sku_name = "S1"
+
 
 # App service details
 app_config = {

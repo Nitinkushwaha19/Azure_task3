@@ -26,6 +26,10 @@ variable "asp_config" {
   description = "A map of App Service Plan configurations."
 }
 
+variable "sku_name" {
+  type = string
+}
+
 # App Service
 variable "app_config" {
   type = map(object({
