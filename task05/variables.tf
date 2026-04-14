@@ -27,7 +27,8 @@ variable "asp_config" {
 }
 
 variable "sku_name" {
-  type = string
+  type        = string
+  description = "sku_name of the app service plan."
 }
 
 # App Service
