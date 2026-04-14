@@ -33,6 +33,7 @@ variable "app_config" {
     resource_group_key = string
     asp_key            = string
   }))
+  description = "A map of App Service configurations."
 }
 
 variable "ip_restrictions" {
@@ -43,6 +44,7 @@ variable "ip_restrictions" {
     ip_address  = optional(string)
     service_tag = optional(string)
   }))
+  description = "IP Restrictions for the App service"
 }
 
 

@@ -45,10 +45,10 @@ app_config = {
     asp_key            = "ASP1"
   }
 
-  "APP1" = {
-    name               = "cmaz-2ehw6cyk-mod5-app-01"
-    resource_group_key = "RG1"
-    asp_key            = "ASP1"
+  "APP2" = {
+    name               = "cmaz-2ehw6cyk-mod5-app-02"
+    resource_group_key = "RG2"
+    asp_key            = "ASP2"
   }
 
 }
