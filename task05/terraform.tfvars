@@ -28,7 +28,7 @@ asp_config = {
     resource_group_key = "RG1"
   }
 
-  "ASP1" = {
+  "ASP2" = {
     name               = "cmaz-2ehw6cyk-mod5-asp-02"
     worker_count       = 1
     resource_group_key = "RG2"
