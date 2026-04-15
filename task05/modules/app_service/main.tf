@@ -18,6 +18,8 @@ resource "azurerm_windows_web_app" "web_app" {
         service_tag = try(ip_restriction.value.service_tag, null)
       }
     }
+
+    ip_restriction_default_action = "Deny"
   }
 
   tags = var.tags
